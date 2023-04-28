@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css"/>
+    <title>Todo-List App</title>
+</head>
+<body>
+
+    <header>
+        <h1>APA KEGIATANMU?</h1>
+    </header>
+
+    <form>
+        <input type="text" class="input-kegiatan">
+        <button class="tombol-kegiatan" type="submit">
+            <i class="fas fa-plus-square"></i>
+        </button>
+        <div class="filter">
+            <select name="kgtn" class="filter-kegiatan">
+             <option value="semua">Semua</option>
+             <option value="selesai">Selesai</option>
+             <option value="belum">Belum Selesai</option>
+            </select>
+        </div>
+    </form>
+
+    <div class="container">
+        <ul class="daftar-kegiatan"></ul>
+    </div>
+    
+    <script src="./main.js"></script>
+</body>
+</html>
